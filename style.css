@@ -1,0 +1,52 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 중앙 컨테이너 */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #667eea;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* 버튼에 마우스를 올렸을 때 */
+button:hover {
+    background-color: #764ba2;
+    transform: scale(1.1);
+}
+
+/* 메시지 스타일 */
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #667eea;
+    font-weight: bold;
+    min-height: 30px;
+}
